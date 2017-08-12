@@ -1,0 +1,25 @@
+{
+    "name": "matok/sudoku",
+    "description": "Solve sudoku puzzle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matej Kuna aka Matok",
+            "email": "mat.kuna@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Matok\\Puzzle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Matok\\Puzzle\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "dev-master"
+    }
+}
